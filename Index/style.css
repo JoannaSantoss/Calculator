@@ -1,0 +1,76 @@
+
+/*
+Definições do estilo base da página.
+*/
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+Definição do tamanho da calculadora.
+*/
+#calculadora {
+    width: 300px;
+    padding: 16px;
+    background-color: gray;
+    border-radius: 20px;
+}
+/*
+Definiçaõ do estilo e tamanho do visor.
+*/
+#visor {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 20px;
+    padding: 0 12px;
+    font-size: 32px;
+    text-align: right;
+    color: rgb(0, 0, 0) ;
+    background-color: green;
+}
+
+/*
+Definiçaõ do tamanho e display do teclado.
+*/
+#teclado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+/*
+Definiçaõ do Tamanho dos botões.
+*/
+.btn {
+    width:65px;
+    height: 70px;
+    
+}
+
+/*
+Definiçaõ do estilo dos botões que são function.
+*/
+.function {
+    background-color: green;
+}
+/*
+Definiçaõ do estilo dos botões que são operator.
+*/
+.operator {
+    background-color: rgb(136, 134, 134);
+}
+/*
+Definiçaõ do estilo dos botões que são value.
+*/
+.value {
+    background-color: rgb(136, 134, 134);
+}
+
+
+
+
