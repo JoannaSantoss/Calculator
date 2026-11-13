@@ -13,12 +13,10 @@ A lightweight, browser-based arithmetic calculator built with **HTML5**, **CSS3*
 
 The application renders a centered calculator panel with a green read-only display (`#visor`) and a keypad grid (`CE`, `DEL`, operators, digits `0–9`, and `=`):
 
-- **Addition:** `5+5` $\rightarrow$ `10`
-- **Subtraction:** `10-5` $\rightarrow$ `5`
-- **Multiplication:** `5*5` $\rightarrow$ `25`
-- **Division:** `20/5` $\rightarrow$ `4`[cite: 1]
-
-> Tip: You can add screenshots from your project (`docs/` or `assets/`) and link them here to showcase the UI in action.
+- **Addition:** 
+- **Subtraction:** 
+- **Multiplication:** 
+- **Division:** 
 
 ---
 
