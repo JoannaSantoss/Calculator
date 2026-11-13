@@ -22,18 +22,18 @@ The application renders a centered calculator panel with a green read-only displ
 
 ## Features
 
-- **Core Arithmetic Operations:** Addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`)[cite: 1].
+- **Core Arithmetic Operations:** Addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`).
 - **Clear & Backspace Controls:**
-  - `CE`: Clears the entire display[cite: 1].
-  - `DEL`: Removes the last character, or resets the display if `"Erro"` is shown[cite: 1].
+  - `CE`: Clears the entire display.
+  - `DEL`: Removes the last character, or resets the display if `"Erro"` is shown
 - **Smart Input Guardrails:**
-  - Prevents starting an expression with an operator[cite: 1].
-  - Replaces consecutive operators automatically (e.g., typing `*` after `20+` updates it to `20*`)[cite: 1].
-  - Strips a trailing operator before evaluating so expressions don't fail unnecessarily[cite: 1].
+  - Prevents starting an expression with an operator.
+  - Replaces consecutive operators automatically (e.g., typing `*` after `20+` updates it to `20*`).
+  - Strips a trailing operator before evaluating so expressions don't fail unnecessarily.
 - **Result Formatting & Error Handling:**
-  - Displays `"Erro"` for division by zero or invalid results (`Infinity`, `-Infinity`, `NaN`)[cite: 1].
-  - Rounds decimal outputs to up to 8 decimal places and trims unnecessary trailing zeros (`Number(resultado.toFixed(8)).toString()`)[cite: 1].
-- **Event Delegation:** Uses a single click listener on `.teclado` to route button actions cleanly[cite: 1].
+  - Displays `"Erro"` for division by zero or invalid results (`Infinity`, `-Infinity`, `NaN`).
+  - Rounds decimal outputs to up to 8 decimal places and trims unnecessary trailing zeros (`Number(resultado.toFixed(8)).toString()`).
+- **Event Delegation:** Uses a single click listener on `.teclado` to route button actions cleanly.
 
 ---
 
